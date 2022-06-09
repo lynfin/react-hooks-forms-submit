@@ -45,7 +45,7 @@ function Form() {
       </form>
       {
         errors.length > 0 ? errors.map((error, index) => (
-          <p key={index} styel={{ color: "red" }}>{error}</p>
+          <p key={index} style={{ color: "red" }}>{error}</p>
         )) : null
       }
       <h3>Submissions</h3>
